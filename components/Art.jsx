@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { featureLists, goodLists } from '@/Data/navLinks'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -39,7 +39,7 @@ export const Art = () => {
                     </ul>
                     <div className="cocktail-img">
                         <img
-                            src='images/me.jpg'
+                            src='/images/me.jpg'
                             alt='"cocktail'
                             className='abs-center masked-img size-full object-contain'
                         />
