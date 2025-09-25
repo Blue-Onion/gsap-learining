@@ -1,5 +1,6 @@
 "use client";
 
+import Cocktails from "@/components/Cocktails";
 import Hero from "@/components/Hero";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     < main className="">
      <Hero/>
+     <Cocktails/>
     </ main>
   );
 }
