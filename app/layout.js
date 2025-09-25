@@ -1,14 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+import localFont from "next/font/local";
+
+const modernNegra = localFont({
+ src: "../public/fonts/Modern-Negra-Demo.ttf", // relative path
+  variable: "--font-modern-negra",
 });
 
 export const metadata = {
@@ -20,9 +19,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={modernNegra.variable}
       >
-        {children}
+        <main className="p-4">
+          <Navbar />
+          {children}
+        </main>
       </body>
     </html>
   );
