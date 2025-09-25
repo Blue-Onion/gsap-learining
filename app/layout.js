@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body
         className={modernNegra.variable}
       >
-        <main className="p-4">
+        <main className="">
           <Navbar />
           {children}
         </main>

@@ -1,5 +1,6 @@
 "use client";
 
+import Hero from "@/components/Hero";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
@@ -10,7 +11,10 @@ export default function Home() {
   
   return (
     < main className="">
-     
+     <Hero/>
+     <div className="h-dvh bg-black">
+
+     </div>
     </ main>
   );
 }
