@@ -1,19 +1,18 @@
 "use client";
-
+import About from "@/components/About";
 import Cocktails from "@/components/Cocktails";
 import Hero from "@/components/Hero";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
-import { useRef } from "react";
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger,SplitText)
   
   return (
-    < main className="">
+    < main>
      <Hero/>
      <Cocktails/>
+     <About/>
     </ main>
   );
 }
