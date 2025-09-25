@@ -12,9 +12,6 @@ export default function Home() {
   return (
     < main className="">
      <Hero/>
-     <div className="h-dvh bg-black">
-
-     </div>
     </ main>
   );
 }
