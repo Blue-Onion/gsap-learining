@@ -28,8 +28,8 @@ const Navbar = () => {
             <div className="mx-auto container flex justify-between items-center">
                 <Link className="flex justify-between items-center gap-2" href={"#home"}>
                     <Image src="/images/logo.png" width={40} height={40} alt="logo" />
-                    <h2 className="text-xl font-bold">
-                        Velvet Pour
+                    <h2 className="text-2xl font-bold">
+                         Pour Tail
                     </h2>
                 </Link>
                 <ul className="flex gap-3 items-center">
