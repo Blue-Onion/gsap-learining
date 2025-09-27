@@ -129,9 +129,9 @@ const socials = [
 	url: "https://x.com/Blue_Onion_3480",
  },
  {
-	name: "Facebook",
+	name: "LinkedIN",
 	icon: "/images/lk.png",
-	url: "#",
+	url: "https://www.linkedin.com/in/aditya-singh-rawat-0a7416326/",
  },
 ];
 

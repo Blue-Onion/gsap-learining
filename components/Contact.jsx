@@ -31,7 +31,8 @@ timeLine.from(titleSplit.words,{opacity:0,yPercent:100,stagger:0.02,duration:1})
             Visit Our Bar
           </h3>
           <p className="">
-            Random Adress
+           Olive Bar & Kitchen
+6-8, Kalka Das Marg, New Delhi
           </p>
         </div>
         <div className="">
@@ -39,7 +40,7 @@ timeLine.from(titleSplit.words,{opacity:0,yPercent:100,stagger:0.02,duration:1})
             Contact Us
           </h3>
           <p className="">
-            885125726
+            +91 885125726
           </p>
           <p className="">rawatadityasingh0gmail.com</p>
         </div>
