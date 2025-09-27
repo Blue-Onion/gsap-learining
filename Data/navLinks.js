@@ -121,16 +121,16 @@ const socials = [
  {
 	name: "Instagram",
 	icon: "/images/insta.png",
-	url: "#",
+	url: "https://www.instagram.com/adityasinghrawat54/",
  },
  {
 	name: "X (Twitter)",
 	icon: "/images/x.png",
-	url: "#",
+	url: "https://x.com/Blue_Onion_3480",
  },
  {
 	name: "Facebook",
-	icon: "/images/fb.png",
+	icon: "/images/lk.png",
 	url: "#",
  },
 ];

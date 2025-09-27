@@ -15,11 +15,11 @@ const Menu = () => {
     const getCurrCocktail = (indexOffSet) => {
         return allCocktails[(curr + indexOffSet + totalCocktails) % totalCocktails];
     }
-    useGSAP(()=>{
-gsap.fromTo("#title",{opacity:0},{opacity:1,duration:1});
-gsap.fromTo(".cocktail img",{opacity:0,xPercent:-100},{opacity:1,xPercent:0,ease:"power1.inOut",duration:1});
-gsap.fromTo(".details",{opacity:0,yPercent:100},{opacity:1,yPercent:0,ease:"power1.inOut",duration:1});
-    },[curr])
+    useGSAP(() => {
+        gsap.fromTo("#title", { opacity: 0 }, { opacity: 1, duration: 1 });
+        gsap.fromTo(".cocktail img", { opacity: 0, xPercent: -100 }, { opacity: 1, xPercent: 0, ease: "power1.inOut", duration: 1 });
+        gsap.fromTo(".details", { opacity: 0, yPercent: 100 }, { opacity: 1, yPercent: 0, ease: "power1.inOut", duration: 1 });
+    }, [curr])
     const currCocktail = getCurrCocktail(0);
     const prevCocktail = getCurrCocktail(-1);
     const nextCocktail = getCurrCocktail(1);
@@ -64,14 +64,14 @@ gsap.fromTo(".details",{opacity:0,yPercent:100},{opacity:1,yPercent:0,ease:"powe
                             {currCocktail.name}
                         </p>
                     </div>
-                        <div className="details">
-                            <h2 className="">
-                                {currCocktail.title}
-                            </h2>
-                            <p className="">
-                                {currCocktail.description}
-                            </p>
-                        </div>
+                    <div className="details">
+                        <h2 className="">
+                            {currCocktail.title}
+                        </h2>
+                        <p className="">
+                            {currCocktail.description}
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
